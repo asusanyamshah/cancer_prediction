@@ -31,11 +31,11 @@ After the model is trained, the predictions of the '''x_test''' data is taken us
 
 And this is the confusion matrix that was calculated for our model
 
-![confusion_matrix](confusion_matrix.png)
+![confusion_matrix](diagrams/confusion_matrix.png)
 
 The accuracy was also calculated using the sklearn library. It was then printed out in a user friendly way. 
 
-![accuracy](accuracy.png)
+![accuracy](diagrams/accuracy.png)
 
 
 ### Saving the model
@@ -47,4 +47,4 @@ The model is then saved using the library called '''joblib'''. We use the comman
 Matplotlib is used to visualize the confusion matrix. The diagonal from top left to bottom right is highly colored which shows that the model is very accurate. '''plt.imshow(cm, cmap= 'Blues')''' makes the diagram with the color Blue to highlight the numbers of the confusion matrix. '''plt.colorbar()''' displays the colorbar and '''plt.show()''' shows the diagram in an interactive window and is a way to conclude the image. 
 Here is an image of the diagram.
 
-![diagram](diagram.png)
+![diagram](diagrams/diagram.png)
