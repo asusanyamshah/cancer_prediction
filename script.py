@@ -46,10 +46,10 @@ prediction = classifier.predict([[radius_mean, texture_mean, perimeter_mean, are
                    symmetry_worst, fractal_dimension_worst]])
 
 # Printing the prediction in a user friendly way
-print(f"Thank you for answering\n\n")
+print(f"\nThank you for answering\n\n")
 if prediction[0] == 1:
-    print(f"The cancer is malignant")
+    print(f"The cancer is malignant\n\n")
 
 else:
-    print(f"The cancer is benign")
+    print(f"The cancer is benign\n\n")
 

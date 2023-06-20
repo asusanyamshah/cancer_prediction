@@ -53,3 +53,6 @@ Here is an image of the diagram.
 
 ## Script.py
 
+First the library ```joblib``` is imported to load the saved model. The classifier is then loaded using ```joblib.load('classifier.pk1')``` and is saved in the variable named ```classiifier```. The users and then welcomed and then the required input for the model is taken from the user using the input function in a user friendly way. After getting the necessary input and converting it into a float, the prediction is taken from the model by providing the input in a 2 Dimentional Array format and is then stored in the variable called ```prediction```. The prediction is then translated back to categorical form and is shown to the user in a user friendly way. Here is the diagram which shows the program running and testing of the first row of the csv. 
+
+![Program](diagrams/program.png)
